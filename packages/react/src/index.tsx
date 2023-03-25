@@ -3,11 +3,11 @@ import { styled } from './styles'
 
 export const Button = styled('button', {
   fontFamily: '$default',
-  backgroundColor: '$ignite300',
+  backgroundColor: '$gray200',
   borderRadius: '$sm',
   border: 0,
   fontWeight: 'bold',
-  color: '$white',
+  color: '$black',
 
   variants: {
     size: {
@@ -28,4 +28,3 @@ export const Button = styled('button', {
 })
 
 export type ButtonProps = ComponentProps<typeof Button>
-
